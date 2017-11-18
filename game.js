@@ -642,18 +642,6 @@ AlienBullet.prototype = new Bullet();
 
 Asteroid = function () {
   this.init("asteroid",
-<<<<<<< HEAD
-      [-10,   0,
-        -5,   7,
-        -3,   4,
-        1,  10,
-        5,   4,
-        10,   0,
-        5,  -6,
-        2, -10,
-        -4, -10,
-        -4,  -5]);
-=======
             [-10,   0,
                1,  10,
                5,   4,
@@ -662,7 +650,6 @@ Asteroid = function () {
                2, -10,
               -4, -10,
               -4,  -5]);
->>>>>>> Change Asteroid shape
 
   this.visible = true;
   this.scale = 6;
